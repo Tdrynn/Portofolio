@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>My Blog</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <style>
-        h1{color: blanchedalmond;}
+        h1{color: black;}
         body {background-color: whitesmoke;}
     </style>
 </head>
@@ -13,19 +14,15 @@
     <h1>Materi HTML</h1>
     <a href="#atribut">Atribut HTML</a>
     <a href="#heading">Heading HTML</a>
-    <a href="#paragrahps">HTML paragrahps</a>
+    <a href="#paragrahps">HTML paragrahps</a><br>
     <a href="#style">Style</a>
     <a href="#formatting">Formatting</a>
     <a href="#quotations">Quotations</a>
-    <a href="#comments">Comments</a>
+    <a href="#comments">Comments</a><br>
     <a href="#color">Color</a>
-    <a href="#css">CSS</a>
     <a href="#link">Link</a>
     <a href="#images">Images</a>
-    <a href="#favicon">Favicon</a>
-    <a href="#pagetitle">Page Title</a>
-    <a href="#tables">Tables</a>
-    <br>
+    <a href="#tables">Tables</a><br>
 
     <section id="Atribut">
         <h2>Atribut HTML</h2>
@@ -106,28 +103,52 @@
         <h2 style="background-color: hsl(0, 100%, 50%);">Latar belakang heading ini berwarna merah menggunakan format warna HSL</h2><br><hr>
     </section>
 
-    <section id="css">
-        
-    </section>
 
     <section id="links">
-        
+        <a href="https://elearning.pnb.ac.id/">Kalimat ini memiliki link</a><br>
+        <a href="https://elearning.pnb.ac.id/" target="_blank">Kalimat ini memiliki link dengan target _blank yang akan membuka link di tab baru</a><br>
+        <a href="https://sion.pnb.ac.ic"><img src="logo.jpg" alt="link ke web sion" style="width: 42px;height: 42px;"></a><br>
+        <a href="mailto:tuderyan1936@gmail.com">Kirim email</a><br><hr>
     </section>
 
     <section id="images">
-        
+        <img src="logo.jpg" alt="Logo PNB" style="width: 100px;height: 100px;;"><hr>
     </section>
 
-    <section id="favicon">
-        
-    </section>
-
-    <section id="pagetitle">
-        
-    </section>
 
     <section id="tables">
-        
+        <p>Contoh tabel sederhana</p>
+        <p>Setiap baris tabel dimulai dengan tag tr (tabel row), dan setiap sel tabel di definisikan oleh tag td (tabel data)</p>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>NIM</td>
+            </tr>
+            <tr>
+                <td>Yono</td>
+                <td>2346</td>
+            </tr>
+            <tr>
+                <td>Asep</td>
+                <td>2143</td>
+            </tr>
+        </table><br>
+
+        <p>Contoh tabel dengan tabel header (th)</p>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+            </tr>
+            <tr>
+                <td>Yono</td>
+                <td>2346</td>
+            </tr>
+            <tr>
+                <td>Asep</td>
+                <td>2143</td>
+            </tr>
+        </table><hr>
     </section>
 </body>
 </html>
