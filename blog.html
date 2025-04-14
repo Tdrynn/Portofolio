@@ -5,129 +5,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
-    <style>
-        h1{color: black;}
-        body {background-color: whitesmoke;}
-    </style>
 </head>
 <body>
     <h1>Materi HTML</h1>
-    <a href="#atribut">Atribut HTML</a>
-    <a href="#heading">Heading HTML</a>
+    <a href="#atribut">Atribut HTML</a><br>
+    <a href="#heading">Heading HTML</a><br>
     <a href="#paragrahps">HTML paragrahps</a><br>
-    <a href="#style">Style</a>
-    <a href="#formatting">Formatting</a>
-    <a href="#quotations">Quotations</a>
-    <a href="#comments">Comments</a><br>
-    <a href="#color">Color</a>
-    <a href="#link">Link</a>
-    <a href="#images">Images</a>
-    <a href="#tables">Tables</a><br>
+    <a href="#style">HTML Style</a><br>
+    <a href="#formatting">HTML Formatting</a><br>
+    <a href="#quotations">HTML Quotations</a><br>
+    <a href="#comments">HTML Comments</a><br>
+    <a href="#css">HTML CSS</a>
+    <a href="#color">HTML Color</a><br>
+    <a href="#link">HTML Link</a><br>
+    <a href="#images">HTML Images</a><br>
+    <a href="#favicon">HTML Favicon</a><br>
+    <a href="#pagetittle">HTML Page Tittle</a><br>
+    <a href="#tables">HTML Tables</a><br>
 
     <section id="Atribut">
         <h2>Atribut HTML</h2>
-        <p>1. Atribut a href (link):&lt;a href="pnb.ac.id"&gt;Web PNB&lt;menjadi seperti ini: <a href="https://sion.pnb.ac.id">PNB</a></p>
+        <p>1. Atribut a href (link):&lt;a href="pnb.ac.id"&gt;Web PNB&lt;/a&gt;menjadi seperti ini: <a href="https://sion.pnb.ac.id">Web PNB</a></p>
 
-        <p style="color: red;">2. Atribut img src (Menampilkan gambar): tambahkan terlebih dahulu gambar yang akan digunakan pada folder Portofolio&lt;img src="namagambar.png"&gt;<br><img src="logo.jpg" width="200px" height="200px" alt="Logo PNB"></p>
+        <p>2. Atribut img src (Menampilkan gambar): tambahkan terlebih dahulu gambar yang akan digunakan pada folder Portofolio&lt;img src="namagambar.png"&gt;<br><img src="logo.jpg" width="200px" height="200px" alt="Logo PNB"></p>
 
-        <p style="color: red;">3. Atribut Style<br> 
-            &lt; p style="color: red&gt; This is a red paragrahp.&gt;Tulisan menjadi: <p style="color: red;"> This is a red paragrahp</p> <br><hr>
+        <p>3. Atribut Style&lt; p style="color: red&gt; Teks ini berwarna merah&lt;p&gt;Tulisan menjadi: <p style="color: red;"> Teks ini berwarna merah</p> <br><hr>
     </section>
 
     <section id="heading">
-        <H2>Heading HTML</H2>
-        <p> h1 sampai h6
-            <h1>Ini heading 1</h1>
-            <h2>Ini heading 2</h2>
-            <h3>Ini heading 3</h3>
-            <h4>Ini heading 4</h4>
-            <h5>Ini heading 5</h5>
-            <h6>Ini heading 6</h6>
-        </p><br>
+        <h2>Heading HTML</h2>
+        <p>Heading 1: &lt;h1&gt; Ini heading 1&lt;/h1&gt; Menjadi:</p>
+        <h1>Ini heading 1</h1>
+        <p>Heading 2: &lt;h2&gt; Ini heading 2&lt;/h2&gt; Menjadi:</p>
+        <h2>Ini heading 2</h2>
+        <p>Heading 3: &lt;h3&gt; Ini heading 3&lt;/h3&gt; Menjadi:</p>
+        <h3>Ini heading 3</h3>
+        <p>Heading 4: &lt;h4&gt; Ini heading 4&lt;/h4&gt; Menjadi:</p>
+        <h4>Ini heading 4</h4>
+        <p>Heading 5: &lt;h5&gt; Ini heading 5&lt;/h5&gt; Menjadi:</p>
+        <h5>Ini heading 5</h5>
+        <p>Heading 6: &lt;h6&gt; Ini heading 6&lt;/h6&gt; Menjadi:</p>
+        <h6>Ini heading 6</h6>
 
-        <p> Heading yang lebih besar
+        <p>Heading 1 dengan menggunakan style yang akan merubah font-size: &lt;h1 style="font-size:60px;"&gt; Ini heading dengan style&lt;/h1&gt; Menjadi:</p>
             <h1 style="font-size:60px;">Ini heading dengan style</h1>
-        </p><br><hr>
+        <br><hr>
     </section>
 
     <section id="paragrahps">
         <h2>HTML paragrahp</h2>
+        <p>paragrahp: &lt;p&gt; Ini adalah paragraf normal &lt;/p&gt; Menjadi:</p>
         <p>Ini adalah paragraf normal</p>
 
-        <hr>
-        <p>Ini paragraf menggunakan Horizontal Rules</p>
-        <hr>
+        <p>Horizontal Rules (hr): &lt;p&gt;Paragraf ini menggunakan horizontal rule(hr)&lt;/p&gt;&lt;hr&gt;</p>
+        <p>Ini paragraf menggunakan Horizontal Rules</p><hr>
 
+        <p>break(br): &lt;p&gt;Paragraf ini menggunakan &lt;br&gt; Break &lt;br&gt; elemen &lt;/p&gt; Menjadi:</p>
         <p>Paragraf ini menggunakan <br> Break <br> elemen </p>
-        <p>Ini paragraf dengan pre element</p>
-        <pre>
-            Ini pre 1.
-            Ini pre 2.
-        </pre><br><hr>
+
+        <p>pre: &lt;pre&gt;Paragraf ini menggunakan pre&lt;/pre&gt; Menjadi: </p>
+        <pre>Paragraf ini menggunakan pre</pre><br><hr>
     </section>
 
     <section id="style">
         <h2>Style</h2>
+        <p>Style untuk mengubah warna: &lt;p style="color: blue;"&gt;Ini paragraf dengan style Color untuk mengubah font menjadi berwarna&lt;/p&gt; Menjadi: </p>
         <p style="color: blue;">Ini paragraf dengan style Color untuk mengubah font menjadi berwarna</p>
+
+        <p>Style untuk mengubah ukuran font-size: &lt;p style="font-size: 25px;"&gt;Ini paragraf dengan style font-size untuk mengubah ukuran font&lt;/p&gt; Menjadi: </p>
         <p style="font-size: 25px;">Ini paragraf dengan style font-size untuk mengubah ukuran font</p>
+
+        <p>Style untuk mengubah font: &lt;p style="font-family: 'Times New Roman', Times, serif;"&gt;Ini paragraf dengan style Font-family untuk mengubah font&lt;/p&gt; Menjadi: </p>
         <p style="font-family: 'Times New Roman', Times, serif;">Ini paragraf dengan style Font-family untuk mengubah font</p>
+
+        <p>Style untuk mengubah posisi teks: &lt;p style="text-align: center;"&gt;Ini paragraf dengan style text-align untuk mengubah posisi teks ke tengah&lt;/p&gt; Menjadi: </p>
         <p style="text-align: center;">Ini paragraf dengan style text-align untuk mengubah posisi teks ke tengah</p><br><hr>
     </section>
 
     <section id="formatting">
         <h2>Formatting</h2>
+
+        <p>Bold: &lt;b&gt;Teks ini menggunakan tag Bold &lt;/b&gt;</p>
         <b>Teks ini menggunakan tag Bold</b><br>
+
+        <p>Strong: &lt;strong&gt;Teks ini menggunakan tag strong &lt;/strong&gt;</p>
         <strong>Teks ini menggunakan menggunakan tag strong</strong><br>
+
+        <p>I: &lt;i&gt;Teks ini menggunakan tag i &lt;/i&gt;</p>
         <i>Teks ini menggunakan tag i</i><br>
+
+        <p>em: &lt;em&gt;Teks ini menggunakan tag em &lt;/em&gt;</p>
         <em>Teks in menggunakan tag em</em><br>
+
+        <p>Mark: &lt;strong&gt;Teks ini menggunakan tag mark &lt;/mark&gt;</p>
         <mark>Teks ini menggunakan tag mark</mark><br>
+
+        <p>Small: &lt;small&gt;Teks ini menggunakan tag small &lt;/small&gt;</p>
         <small>Teks ini menggunakan tag small</small><br>
-        <p><del>Teks ini menggunakan tag del</del></p><br>
-        <p><sub>Teks ini menggunakan tag sub</sub></p><br>
-        <p><sup>Teks ini menggunakan tag sup</sup></p><br><hr>
+
+        <p>Del: &lt;del&gt;Teks ini menggunakan tag del &lt;/del&gt;</p>
+        <del>Teks ini menggunakan tag del</del><br>
+
+        <p>Sub: &lt;sub&gt;Teks ini menggunakan tag sub &lt;/sub&gt;</p>
+        <sub>Teks ini menggunakan tag sub</sub><br>
+
+        <p>Sup: &lt;sup&gt;Teks ini menggunakan tag sup &lt;/sup&gt;</p>
+        <sup>Teks ini menggunakan tag sup</sup><br><hr>
     </section>
 
     <section id="quotations">
         <h2>Quotations</h2>
-        <p>Ini adalah pengertian matriks:</p>
-        <blockquote cite="https://www.ruangguru.com/blog/mengenal-matriks-dalam-matematika-pengertian-jenis-dan-transpose">Matriks adalah sekumpulan bilangan yang disusun berdasarkan baris dan kolom, serta ditempatkan di dalam tanda kurung. Nah, tanda kurungnya ini bisa berupa kurung biasa “( )” atau kurung siku “[ ]”, ya. Suatu matriks diberi nama dengan huruf kapital, seperti A, B, C, dan seterusnya.</blockquote><br>
-        <p>Ali bin Abi Thalib: <q>Balas dendam terbaik adalah menjadikan dirimu lebih baik.</q></p><hr>
+        <p>Blockquote: &lt;blockquote&gt;Teks ini menggunakan blockquote&lt;/blockqute&gt;</p>
+        <blockquote>Teks ini menggunakan blockquote</blockquote><br>
+
+        <p>quote: &lt;q&gt;Teks ini menggunakan q&lt;/q&gt;</p>
+        <q>Teks ini menggunakan q</q>
+
+        <p>Address: &lt;address&gt;Teks ini menggunakan address&lt;/address&gt;</p>
+        <address>Teks ini menggunakan address</address>
+
+        <p>abbreviation: &lt;abbr&gt;Teks ini menggunakan abbr&lt;/abbr&gt;</p>
+        <abbr>Teks ini menggunakan abbr</abbr>
+
+        <p>Cite: &lt;cite&gt;Teks ini menggunakan cite&lt;/cite&gt;</p>
+        <abbr>Teks ini menggunakan cite</abbr>
+
+        <p>Bi-Directional Override.: &lt;bdo&gt;Teks ini menggunakan bdo&lt;/bdo&gt;</p>
+        <abbr>Teks ini menggunakan bdo</abbr><hr>
     </section>
 
     <section id="comments">
         <h2>Comments</h2>
-        <p>Paragraf ini terlihat</p>
-        <!-- <p>paragraf ini tidak terlihat</p> -->
-         <p>Paragraf ini juga terlihat</p><hr>
+        <p>Comment: &lt;!-- Teks ini adalah komentar --&gt; Menjadi: </p>
+        <!-- teks ini adalah komentar --><hr>
     </section>
 
     <section id="color">
         <h2>color</h2>
-        <h1 style="background-color: aquamarine;">Latar belakang berwarna aquamarine</h1>
-        <h1 style="border: 2px solid black;">Teks ini memiliki border 2px berwarna hitam</h1>
-        <h2 style="background-color: rgb(255, 100, 255);">Latar belakang heading ini berwarna pink menggunakan format warna RGB</h2>
-        <h2 style="background-color: #3456db;">Latar belakang heading ini berwarna biru menggunakan format warna HEX</h2>
-        <h2 style="background-color: hsl(0, 100%, 50%);">Latar belakang heading ini berwarna merah menggunakan format warna HSL</h2><br><hr>
+        <p>Backgroud Color: &lt;p style="background-color: aquamarine;"&gt;Latar belakang berwarna aquamarine&lt;/p&gt; Menjadi:</p>
+        <p style="background-color: aquamarine;">Latar belakang berwarna aquamarine</p><br>
+
+        <p>Border: &lt;p style="border: 2px solid blue;"&gt;Teks ini memiliki border 2px berwarna blue&lt;/p&gt; Menjadi:</p>
+        <p style="border: 2px solid blue;">Teks ini memiliki border 2px berwarna blue</p><br>
+
+        <p>Teks Color: &lt;p style="color: green;"&gt;Latar belakang heading ini berwarna green&lt;/p&gt; Menjadi:</p>
+        <p style="color: green;">Latar belakang heading ini berwarna green</p><br>
+
+        <p>Color Value RGB: &lt;p style="background-color: rgb(100, 50, 71);"&gt;Latar belakang ini menggunakan format warna RGB&lt;/p&gt; Menjadi:</p>
+        <p style="background-color: rgb(100, 50, 71);">Teks ini menggunakan warna RGB</p>
+
+        <p>Color Value HEX: &lt;p style="color: rgb(100, 50, 71);"&gt;Teks ini menggunakan warna HEX&lt;/p&gt; Menjadi:</p>
+        <p style="background-color: #3456db;">Latar belakang ini menggunakan format warna HEX</p>
+
+        <p>Color Value HSL: &lt;p style="background-color: hsl(0, 100%, 50%);"&gt;Teks ini menggunakan format warna hsl&lt;/p&gt; Menjadi:</p>
+        <p style="background-color: hsl(0, 100%, 50%);">Latar belakang  ini menggunakan format warna HSL</p><br><hr>
     </section>
 
+    <section id="css">
+        <h2>CSS</h2>
+        <hr>
+    </section>
 
     <section id="links">
         <h2>Links</h2>
+        <p>Normal Link: &lt;a href="https://elearning.pnb.ac.id/"&gt;kalimat ini memiliki link&lt;/a&gt; Menjadi: </p>
         <a href="https://elearning.pnb.ac.id/">Kalimat ini memiliki link</a><br>
+
+        <p>Blank target: &lt;a href="https://elearning.pnb.ac.id/" target="_blank"&gt;Kalimat ini memiliki link dengan target _blank yang akan membuka link di tab baru&lt;/a&gt; Menjadi: </p>
         <a href="https://elearning.pnb.ac.id/" target="_blank">Kalimat ini memiliki link dengan target _blank yang akan membuka link di tab baru</a><br>
+
+        <p>Link menggunakan gambar: &lt;a href="https://sion.pnb.ac.ic/"&gt;&lt;img src="logo.jpg" alt="link ke web sion" style="width: 42px;height: 42px;"&gt;&lt;/a&gt; Menjadi: </p>
         <a href="https://sion.pnb.ac.ic"><img src="logo.jpg" alt="link ke web sion" style="width: 42px;height: 42px;"></a><br>
+
+        <p>Link Email: &lt;a href="mailto:tuderyan1936@gmail.com"&gt;Kirim email&lt;/a&gt; Menjadi: </p>
         <a href="mailto:tuderyan1936@gmail.com">Kirim email</a><br><hr>
     </section>
 
     <section id="images">
         <h2>Images</h2>
-        <img src="logo.jpg" alt="Logo PNB" style="width: 100px;height: 100px;;"><hr>
+        <p>Gambar: &lt;img src="logo.jpg" alt="Logo PNB" style="width: 100px;height: 100px;"&gt; Menjadi: </p>
+        <img src="logo.jpg" alt="Logo PNB" style="width: 100px;height: 100px;"><hr>
     </section>
 
+    <section id="favicon">
+        <h2>Favicon</h2>
+        <p>Favicon: &lt;link rel="icon" type="image/x-icon" href="namagambar.png"&gt; Digunakan untuk mengubah icon yang ada di samping judul tab browser</p>
+        <hr>
+    </section>
+
+    <section id="pagetittle">
+        <h2>Page Tittle</h2>
+        <p>Page Tittle: &lt;tittle&gt;namaJudulTabBroser&lt;/tittle&gt; Digunakan untuk mengubah judul tab browser</p><hr>
+    </section>
 
     <section id="tables">
         <h2>Tabels</h2>
-        <p>Contoh tabel sederhana</p>
+
+        <p>Table: &lt;table&gt; &lt;tr&gt; &lt;td&gt;isi tabel&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</p>
         <p>Setiap baris tabel dimulai dengan tag tr (tabel row), dan setiap sel tabel di definisikan oleh tag td (tabel data)</p>
         <table>
             <tr>
